@@ -88,7 +88,7 @@ const Menu = () => {
          
          <div className="details">
             <h2>{currentCocktail.title}</h2>
-            <p>{currentCocktail.description}</p>
+            <p className='text-sm'>{currentCocktail.description}</p>
          </div>
         </div>
      </div>
